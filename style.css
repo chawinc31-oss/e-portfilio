@@ -1,0 +1,97 @@
+@import url('https://www.w3schools.com/css/css_font_google.asp')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'trirong' , sans-serif;
+}
+
+body{
+    background-color:rgb(146, 233, 255);
+    color: blue;
+    line-height: 1.8;
+}
+
+nav{
+    background-color: azure;
+    color: blue;
+    padding: 1rem 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+nav .logo > img{
+    height: 65px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none ;
+    gap: 15px;
+    font-size: 19px;
+}
+
+nav a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+.header{
+    text-align: center;
+    padding: 30px;
+}
+
+.img-profile{
+    width: 350px;
+    border-radius: 10%;
+    object-fit: cover;
+    box-shadow:0 5px 5px 5px black;
+    border: 2px solid whitesmoke;
+    margin-bottom: 20px;
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 25 px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.card{
+    background: whitesmoke;
+    width: 300px;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0 5px 5px 5px grey;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card h3{
+    padding: 10px;
+    font-size: 24px;
+}
+.card 9{
+    padding: 10px;
+    font-size: 16px;
+}
